@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    overflow-x: hidden;
+}
+
+h1 {overflow-y: hidden;}
+
+.gradient {
+    background: rgb(255,75,5);
+    background: linear-gradient(90deg, rgba(255,75,5,1) 0%, rgba(255,174,53,1) 60%, rgba(255,174,53,1) 100%);
+}
